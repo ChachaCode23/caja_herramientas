@@ -98,7 +98,7 @@ class _PantallaPrincipalState extends State<PantallaPrincipal> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      /
+
       appBar: AppBar(
         // El titulo cambia segun la vista seleccionada
         title: Text(_vistas[_indice].$1,
