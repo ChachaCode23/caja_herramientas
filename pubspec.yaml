@@ -1,0 +1,31 @@
+name: caja_herramientas
+description: Tarea - Aplicacion Caja de Herramientas
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0            # para consumir las APIs
+  url_launcher: ^6.3.0    # para abrir links en el navegador
+  audioplayers: ^6.1.0    # para el sonido del pokemon
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1   # para poner mi foto como icono
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+# Icono de la app (mi foto)
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/foto.jpg"
